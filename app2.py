@@ -243,7 +243,7 @@ with st.sidebar:
     D_o = st.number_input("海波管外径 (mm)", value=0.33, step=0.01, key="edit_D_o")
     D_i = st.number_input("海波管内径 (mm)", value=0.23, step=0.01, key="edit_D_i")
     w_s = st.number_input("槽宽 (mm)", value=0.03, step=0.01, key="edit_w_s")
-    L_total = st.number_input("导丝总长 (mm)", value=350, step=10, key="edit_L_total")
+    L_total = st.number_input("总长 (mm)", value=350, step=10, key="edit_L_total")
 
     st.subheader("载荷参数")
     F = st.number_input("远端横向力 F (N)", value=0.001, step=0.001, format="%.4f", key="edit_F")
